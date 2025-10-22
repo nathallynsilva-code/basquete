@@ -1,0 +1,23 @@
+body{
+    color:rgb(96, 96, 252);
+    background: rgb(155, 82, 250);
+       margin: 0px;
+    font-family:"Henny Penny", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(29, 0, 56);
+}
+section{
+    background: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
