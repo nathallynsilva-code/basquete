@@ -1,18 +1,19 @@
 body{
-    color:rgb(96, 96, 252);
-    background: rgb(155, 82, 250);
-       margin: 0px;
-    font-family:"Henny Penny", sans-serif;
+    color:rgb(236, 171, 238);
+    background: rgb(214, 122, 218);
+    margin: 0px;
+    font-family:"Lora", sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
-    border-bottom: solid 2px rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(225, 170, 241);
     padding: 20px;
     font-size: 32px;
-    color: rgb(29, 0, 56);
+    color: rgb(144, 73, 161);
 }
-section{
-    background: white;
+.chamada{
+    background: rgb(0, 0, 0);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -20,7 +21,34 @@ section{
 }
 .chamada-texto{
     margin-right: 5%;
+
 }
-img{
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.categoria-videos{
+    display:flex;
+    overflow-x:auto;
+    gap: 10px;
+
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img{
+    opacity: 0.5;
     height: 200px;
+}
+categoria-videos img:hover{
+   opacity: 1.0;
+   border: 1px solid black 
+}
+
+.categoria h2{
+    color:aliceblue;
 }
